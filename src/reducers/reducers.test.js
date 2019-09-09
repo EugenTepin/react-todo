@@ -1,4 +1,4 @@
-import todoApp from "reducers";
+import todoApp from "./index";
 import {
   addItem,
   deleteItem,
