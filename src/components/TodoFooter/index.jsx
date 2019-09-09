@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { clearComplitedItems, setVisibilityFilter } from 'actions'
+import { clearComplitedItems, setVisibilityFilter } from '../../actions'
 import TodoFooter from './TodoFooter'
 
 const mapStateToProps = (state) => {

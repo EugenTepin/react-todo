@@ -1,4 +1,4 @@
-import { ADD_NEW_ITEM, DELETE_ITEM, UPDATE_ITEM, addItem, deleteItem, updateItem } from 'actions';
+import { ADD_NEW_ITEM, DELETE_ITEM, UPDATE_ITEM, addItem, deleteItem, updateItem } from './index';
 
 it('addItem return correct action', () => {
     let item = { id: 1 };

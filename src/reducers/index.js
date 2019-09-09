@@ -5,7 +5,7 @@ import {
   SET_VISIBILITY_FILTER,
   CLEAR_COMPLETED_ITEMS,
   VisibilityFilters
-} from "actions";
+} from "../actions";
 
 const initialState = {
   filter: VisibilityFilters.SHOW_ALL,
